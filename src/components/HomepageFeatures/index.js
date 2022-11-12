@@ -4,12 +4,12 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Safe and Scalable',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Cyo is statically typed, nil safe, with a structured approach to resources and concurrency
+        and targets a variety of hardware architectures, with zero or low cost abstractions.
       </>
     ),
   },
