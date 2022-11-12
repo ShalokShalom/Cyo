@@ -4,7 +4,7 @@ sidebar_position: 1
 
 ## The Project
 
-Cyo is starting off as a derivative [Nim][nim-site], with the
+Cyo is starting off as a derivative [Nim](https://nim-lang.org/), with the
 intention of becoming a different language.
 
 The goal is to have a *statically typed* *structured* programming language to
