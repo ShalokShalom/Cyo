@@ -2,46 +2,30 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+## The Project
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Cyo is starting off as a derivative [Nim][nim-site], with the
+intention of becoming a different language.
 
-## Getting Started
+The goal is to have a *statically typed* *structured* programming language to
+create software (including itself) that is sustainable, it aims to be:
 
-Get started by **creating a new site**.
+- *Safe:* statically typed, nil safe, with structured approach to resources and
+  concurrency
+- *Scalable:* target a variety of hardware architectures, with zero or low cost
+  abstractions to run in constrained environments.
+- *Adaptable:* producing native executables, running via the built-in VM, or
+  with in a JS/WASM runtime.
+- *Evolving:* developed and maintained by its community of users, with a self-
+  hosted compiler, support for metaprogramming to safely attempt language
+  extension outside of the core, and support code migration to avoid legacy.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+We are currently working on the first phase of this, by slimming down the
+language and compiler to a workable core and increasing compiler development
+productivity. The following phase will starting with one of the following
+possible features:
+- Introduce Continuation Passing Style transform and Structured Concurrency
+  into the language, this will undoubtedly lead to dramatic changes in memory
+  management and FFI
+- Ease Data Oriented Design through memory regions to support the common handle
+  instead of reference approach
