@@ -23,12 +23,11 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Evolving',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+      Cyo is developed and maintained by its community of users, with a self-hosted compiler and support for metaprogramming to safely attempt language extension.
       </>
     ),
   },
